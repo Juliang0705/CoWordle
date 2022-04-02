@@ -1,0 +1,37 @@
+.board {
+}
+
+.board-row {
+    display: flex;
+}
+
+.board-row-cell {
+    width: 100px;
+    height: 100px;
+    color: black;
+    background: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #d3d6da;
+}
+
+.NotGuessed {
+
+}
+
+.MisPositioned {
+    color: white;
+    background-color: #c9b458;
+}
+
+.Correct {
+    color: white;
+    background-color: #6aaa64;
+}
+
+.Incorrect {
+    color: white;
+    background-color: #787c7e;
+}
